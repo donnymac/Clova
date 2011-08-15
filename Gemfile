@@ -6,8 +6,9 @@ gem 'rails', '3.0.9'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
+gem 'pg', :require => 'pg'
 
-gem 'pg'
+
 
 # Use unicorn as the web server
 # gem 'unicorn'
