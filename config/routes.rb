@@ -1,5 +1,5 @@
 TestRest2::Application.routes.draw do
-  root :to => "home#index.html"
+root :to => "home#index.html"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
