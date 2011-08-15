@@ -1,7 +1,7 @@
 # SQLite version 3.x
 #   gem install postgresql
 development:
-  adapter: postgresql
+  adapter: sqlite3
   encoding: utf8
   database: TestRest2_development
   pool: 5
