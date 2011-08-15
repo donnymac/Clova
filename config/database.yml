@@ -16,13 +16,16 @@ test: &TEST
   username: 
   password:
 
-production:
+production: 
+  encoding: unicode
   adapter: postgresql
-  encoding: utf8
-  database: TestRest2_production
-  pool: 5
-  username: 
-  password:
-
+  username: rulhqmwgee
+  port: 5432
+  host: gB3B2oPPP3XTQRaEOQDO
+  database: ec2-107-20-227-173.compute-1.amazonaws.com
+  password: rulhqmwgee
+  
+  
+# "postgres://rulhqmwgee:gB3B2oPPP3XTQRaEOQDO@ec2-107-20-227-173.compute-1.amazonaws.com/rulhqmwgee"
 #   adapter: postgresql
  # encoding: unicode
