@@ -2,13 +2,13 @@ source 'http://rubygems.org'
 
 
 
-group :production do
-  gem 'pg'
-end
-group :development, :test do
-  gem 'sqlite3'
-end
-
+#group :production do
+#  gem 'pg'
+#end
+#group :development, :test do
+#  gem 'sqlite3'
+#end
+ gem 'pg'
 # Use unicorn as the web server
 # gem 'unicorn'
 # 
