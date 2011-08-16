@@ -1,21 +1,26 @@
 # SQLite version 3.x
 #   gem install postgresql
 development:
-  adapter: sqlite3
-  encoding: utf8
-  database: TestRest2_development
-  pool: 5
-  username: 
-  password:
+ encoding: unicode
+  adapter: postgresql
+  username: rulhqmwgee
+  port: 5432
+  host: gB3B2oPPP3XTQRaEOQDO
+  database: ec2-107-20-227-173.compute-1.amazonaws.com
+  password: rulhqmwgee
+  
+  
 
 test: &TEST
+ encoding: unicode
   adapter: postgresql
-  encoding: utf8
-  database: TestRest2_test
-  pool: 5
-  username: 
-  password:
-
+  username: rulhqmwgee
+  port: 5432
+  host: gB3B2oPPP3XTQRaEOQDO
+  database: ec2-107-20-227-173.compute-1.amazonaws.com
+  password: rulhqmwgee
+  
+  
 production: 
   encoding: unicode
   adapter: postgresql
