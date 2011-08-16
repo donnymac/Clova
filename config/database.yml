@@ -29,3 +29,5 @@ production:
 # "postgres://rulhqmwgee:gB3B2oPPP3XTQRaEOQDO@ec2-107-20-227-173.compute-1.amazonaws.com/rulhqmwgee"
 #   adapter: postgresql
  # encoding: unicode
+ 
+host: localhost
