@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-
+gem 'rails', '3.0.9'
 
 #group :production do
 #  gem 'pg'
@@ -8,7 +8,7 @@ source 'http://rubygems.org'
 #group :development, :test do
 #  gem 'sqlite3'
 #end
- gem 'pg'
+gem 'pg'
 # Use unicorn as the web server
 # gem 'unicorn'
 # 
